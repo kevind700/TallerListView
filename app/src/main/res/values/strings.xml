@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">AreasYVolumenes</string>
+    <string name="areas">Áreas</string>
+    <string name="volumes">Volúmenes</string>
+    <string name="operationsPerformed">Operaciones Realizadas</string>
+    <array name="option">
+        <item>@string/areas</item>
+        <item>@string/volumes</item>
+        <item>@string/operationsPerformed</item>
+    </array>
+    <string name="square">Cuadrado</string>
+    <string name="rectangle">Rectángulo</string>
+    <string name="triangle">Triángulo</string>
+    <string name="circle">Círculo</string>
+    <array name="area">
+        <item>@string/square</item>
+        <item>@string/rectangle</item>
+        <item>@string/triangle</item>
+        <item>@string/circle</item>
+    </array>
+    <string name="sphere">Esfera</string>
+    <string name="cylinder">Cilindro</string>
+    <string name="cone">Cono</string>
+    <string name="cube">Cubo</string>
+    <string name="sideValue">Valor del Lado</string>
+    <string name="calculate">Calcular</string>
+    <string name="clear">Borrar</string>
+    <array name="volume">
+        <item>@string/sphere</item>
+        <item>@string/cylinder</item>
+        <item>@string/cone</item>
+        <item>@string/cube</item>
+    </array>
+    <string name="squareArea">Area del Cuadrado</string>
+    <string name="rectangleArea">Area del Rectangulo</string>
+    <string name="circleArea">Area del Circulo</string>
+    <string name="triangleArea">Area del Triangulo</string>
+    <string name="sphereVolume">Volumen de la Esferas</string>
+    <string name="cubeVolume">Volumen de la Cubo</string>
+    <string name="CylinderVolume">Volumen del Cilindro</string>
+    <string name="ConeVolume">Volumen del Cono</string>
+    <string name="message_calculate_result">Resultado</string>
+    <string name="area">Area:</string>
+    <string name="volume">Volumen:</string>
+    <string name="message_error_squareArea">El campo Valor del Lado es requerido.</string>
+    <string name="message_error_circleArea">El campo Valor del Radio es requerido.</string>
+    <string name="message_error_artistas">El campo Valor de las Aristas es requerido.</string>
+    <string name="heightValue">Valor de la Altura</string>
+    <string name="baseValue">Valor de la Base</string>
+    <string name="message_error_rectangleAreaH">El valor de la altura es requerido</string>
+    <string name="message_error_rectangleAreaB">La base es requerido</string>
+    <string name="radiusValue">Valor del Radio</string>
+    <string name="aristaValue">Valor de las Aristas</string>
+</resources>
