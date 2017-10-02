@@ -25,7 +25,7 @@ public class CicleArea extends AppCompatActivity {
             radius = Double.parseDouble(radiusValue.getText().toString());
             result = 3.1416 * (radius*radius);
 
-            OperationPerformed op = new OperationPerformed(String.valueOf(R.string.circleArea), R.string.radiusValue + ": " + radius, result);
+            OperationPerformed op = new OperationPerformed(resources.getString(R.string.circleArea), resources.getString(R.string.radiusValue) + ": " + radius, result);
             op.save();
             Toast.makeText(this, resources.getString(R.string.message_calculate_result) + "\n" + resources.getString(R.string.area) + " " + result, Toast.LENGTH_SHORT).show();
             clearField();

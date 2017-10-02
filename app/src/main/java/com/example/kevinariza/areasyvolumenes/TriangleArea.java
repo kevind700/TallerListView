@@ -27,7 +27,7 @@ public class TriangleArea extends AppCompatActivity {
             base = Double.parseDouble(baseValue.getText().toString());
             result = (height * base)/2;
 
-            OperationPerformed op = new OperationPerformed(String.valueOf(R.string.triangleArea), R.string.heightValue + ": " + height + "\n" + R.string.baseValue + ": " + base, result);
+            OperationPerformed op = new OperationPerformed(resources.getString(R.string.triangleArea), resources.getString(R.string.heightValue) + ": " + height + "\n" + resources.getString(R.string.baseValue) + ": " + base, result);
             op.save();
             Toast.makeText(this, resources.getString(R.string.message_calculate_result) + "\n" + resources.getString(R.string.area) + " " + result, Toast.LENGTH_SHORT).show();
             clearField();

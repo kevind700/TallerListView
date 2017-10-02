@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AreasYVolumenes</string>
+    <string name="ConeVolume">Cone Volume</string>
+    <string name="CylinderVolume">Cylinder Volume</string>
+    <string name="areas">Areas</string>
+    <string name="aristaValue">Arista Value</string>
+    <string name="baseValue">Base Value</string>
+    <string name="calculate">Calculate</string>
+    <string name="circle">Circle</string>
+    <string name="circleArea">Circle Area</string>
+    <string name="clear">Clear</string>
+    <string name="cone">Cone</string>
+    <string name="cube">Cube</string>
+    <string name="cubeVolume">Cube Volume</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="data">Data</string>
+    <string name="heightValue">Height Value</string>
+    <string name="message_calculate_result">Result</string>
+    <string name="message_error_artistas">The Field Aristas Vale is required</string>
+    <string name="message_error_circleArea">The Field Radius Value is required</string>
+    <string name="message_error_rectangleAreaB">The Base is required</string>
+    <string name="message_error_rectangleAreaH">The Height Value is required</string>
+    <string name="message_error_squareArea">The Field Side Value is required</string>
+    <string name="no">No.</string>
+    <string name="operation">Operation</string>
+    <string name="operationsPerformed">Operations Performed</string>
+    <string name="radiusValue">Radius Value</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="rectangleArea">Rectangle Area</string>
+    <string name="sideValue">Side Value</string>
+    <string name="sphere">Sphere</string>
+    <string name="sphereVolume">Sphere Value</string>
+    <string name="square">Square</string>
+    <string name="squareArea">Square Area</string>
+    <string name="triangle">Triangle</string>
+    <string name="triangleArea">Triangle Area</string>
+    <string name="volumes">Volumes</string>
+</resources>

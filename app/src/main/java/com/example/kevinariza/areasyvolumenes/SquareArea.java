@@ -26,7 +26,7 @@ public class SquareArea extends AppCompatActivity {
             side = Double.parseDouble(sideValue.getText().toString());
             result = side * side;
 
-            OperationPerformed op = new OperationPerformed(String.valueOf(R.string.squareArea), R.string.sideValue + ": " + side, result);
+            OperationPerformed op = new OperationPerformed(resources.getString(R.string.squareArea), resources.getString( R.string.sideValue) + ": " + side, result);
             op.save();
             Toast.makeText(this, resources.getString(R.string.message_calculate_result) + "\n" + resources.getString(R.string.area) + " " + result, Toast.LENGTH_SHORT).show();
             clearField();

@@ -27,7 +27,7 @@ public class CylinderVolume extends AppCompatActivity {
             radius = Double.parseDouble(radiusValue.getText().toString());
             result = 3.1416 * (height * (radius*radius));
 
-            OperationPerformed op = new OperationPerformed(String.valueOf(R.string.CylinderVolume), R.string.heightValue + ": " + height + "\n" + R.string.radiusValue + ": " + radius, result);
+            OperationPerformed op = new OperationPerformed(resources.getString(R.string.CylinderVolume), resources.getString(R.string.heightValue) + ": " + height + "\n" + resources.getString(R.string.radiusValue) + ": " + radius, result);
             op.save();
             Toast.makeText(this, resources.getString(R.string.message_calculate_result) + "\n" + resources.getString(R.string.volume) + " " + result, Toast.LENGTH_SHORT).show();
             clearField();

@@ -51,4 +51,7 @@
     <string name="message_error_rectangleAreaB">La base es requerido</string>
     <string name="radiusValue">Valor del Radio</string>
     <string name="aristaValue">Valor de las Aristas</string>
+    <string name="no">No.</string>
+    <string name="operation">Operación</string>
+    <string name="data">Datos</string>
 </resources>

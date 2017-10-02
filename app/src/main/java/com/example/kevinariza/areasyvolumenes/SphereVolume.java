@@ -25,7 +25,7 @@ public class SphereVolume extends AppCompatActivity {
             radius = Double.parseDouble(radiusValue.getText().toString());
             result = (4/3) * 3.1416 * (radius*radius*radius);
 
-            OperationPerformed op = new OperationPerformed(String.valueOf(R.string.sphereVolume), R.string.radiusValue + ": " + radius, result);
+            OperationPerformed op = new OperationPerformed(resources.getString(R.string.sphereVolume), resources.getString(R.string.radiusValue) + ": " + radius, result);
             op.save();
             Toast.makeText(this, resources.getString(R.string.message_calculate_result) + "\n" + resources.getString(R.string.volume) + " " + result, Toast.LENGTH_SHORT).show();
             clearField();

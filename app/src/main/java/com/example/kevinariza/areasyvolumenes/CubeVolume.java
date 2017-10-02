@@ -25,7 +25,7 @@ public class CubeVolume extends AppCompatActivity {
             aristas = Double.parseDouble(aristasValue.getText().toString());
             result = (6 * (aristas*aristas));
 
-            OperationPerformed op = new OperationPerformed(String.valueOf(R.string.cubeVolume), R.string.aristaValue + ": " + aristas, result);
+            OperationPerformed op = new OperationPerformed(resources.getString(R.string.cubeVolume), resources.getString(R.string.aristaValue) + ": " + aristas, result);
             op.save();
             Toast.makeText(this, resources.getString(R.string.message_calculate_result) + "\n" + resources.getString(R.string.volume) + " " + result, Toast.LENGTH_SHORT).show();
             clearField();
